@@ -112,11 +112,19 @@ h4,
 h5,
 h6 {
     font-family: "Poppins", sans-serif;
-    color: #222;
     line-height: 1.2em !important;
     margin-bottom: 0;
     margin-top: 0;
     font-weight: 600
+}
+
+h1 {
+    color: #F23460;
+}
+
+h4,
+h5 {
+    color: #5C2CC5!important;
 }
 
 .h1,
@@ -2001,7 +2009,7 @@ h6 {
 
 .header-top {
     background: #5C2CC5;
-;
+    ;
     font-size: 12px;
     padding: 8px
 }
@@ -3672,7 +3680,7 @@ dl.toggle.time-line:before {
 
 .left-contents .avg-review {
     background: #5C2CC5;
-;
+    ;
     text-align: center;
     color: #fff;
     font-size: 14px;
