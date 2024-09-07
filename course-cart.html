@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="zxx" class="no-js">
+<head>
+    <!-- Mobile Specific Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="img/fav.png">
+    <!-- Author Meta -->
+    <meta name="author" content="ESSENTIAL - INFOTECH">
+    <!-- Meta Description -->
+    <meta name="description" content="">
+    <!-- Meta Keyword -->
+    <meta name="keywords" content="">
+    <!-- meta character set -->
+    <meta charset="UTF-8">
+    <!-- Site Title -->
+    <title>ESSENTIAL - INFOTECH</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet"> 
+        <!--
+        CSS
+        ============================================= -->
+        <link rel="stylesheet" href="css/linearicons.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/magnific-popup.css">
+        <link rel="stylesheet" href="css/nice-select.css">							
+        <link rel="stylesheet" href="css/animate.min.css">
+        <link rel="stylesheet" href="css/owl.carousel.css">			
+        <link rel="stylesheet" href="css/jquery-ui.css">			
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>	
+        <header id="header" id="home">
+            <div class="header-top">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 col-sm-6 col-4 header-top-left no-padding">
+                            <ul>
+                                <li><a href="#"><i class="fa fa-facebook fa-2x"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter fa-2x"></i></a></li>
+                                <li><a href="#"><i class="fa fa-dribbble fa-2x"></i></a></li>
+                                <li><a href="#"><i class="fa fa-behance fa-2x"></i></a></li>
+                            </ul>
+                        </div>
+                        <div
+                            class="col-lg-6 col-sm-6 col-8 header-top-right no-padding d-flex align-items-center justify-content-end">
+                            <div class="dropdown me-3">
+                                <a class="nav-link dropdown-toggle " href="#" id="languageDropdown" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Language
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="languageDropdown">
+                                    <a class="dropdown-item text-dark" href="#">English</a>
+                                    <a class="dropdown-item text-dark" href="#">Bangla</a>
+                                </div>
+                            </div>
+    
+    
+    
+                            <a href="login.html" class="me-3 d-flex align-items-center">
+                                <span class="fa fa-sign-in"></span>
+                                <span class="text ms-2">Login</span>
+                            </a>
+    
+                            <a href="register.html" class="d-flex align-items-center">
+                                <span class="fa fa-registered"></span>
+                                <span class="text ms-2">Sign Up</span>
+                            </a>
+                            <li><a href="#"><i class="fa fa-bell"></i></a></li>
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+            <div class="container main-menu">
+                <div class="row align-items-center justify-content-between d-flex">
+                    <div id="logo">
+                        <a href="index.html"><img src="img/logo.png" alt="" title="" /></a>
+                    </div>
+                    <nav id="nav-menu-container">
+                        <ul class="nav-menu">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="courses.html">Courses</a></li>
+                            <li><a href="events.html">Events</a></li>
+                            <li><a href="gallery.html">Gallery</a></li>
+                            <li class="menu-has-children"><a href="">Blog</a>
+                                <ul>
+                                    <li><a href="blog-home.html">Blog Home</a></li>
+                                    <li><a href="blog-single.html">Blog Single</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu-has-children"><a href="">Pages</a>
+                                <ul>
+                                    <li><a href="course-details.html">Course Details</a></li>
+                                    <li><a href="event-details.html">Event Details</a></li>
+                                    <li><a href="elements.html">Elements</a></li>
+                                    <li class="menu-has-children"><a href="">Level 2 </a>
+                                        <ul>
+                                            <li><a href="#">Item One</a></li>
+                                            <li><a href="#">Item Two</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </nav><!-- #nav-menu-container -->
+                </div>
+            </div>
+        </header><!-- #header -->
+          
+        <!-- start banner Area -->
+        <section class="banner-area relative about-banner" id="home">	
+            <div class="overlay overlay-bg"></div>
+            <div class="container">				
+                <div class="row d-flex align-items-center justify-content-center">
+                    <div class="about-content col-lg-12">
+                        <h1 class="text-white">
+                            Profile
+                        </h1>	
+                        <p class="text-white link-nav"><a href="index.html">Profile </a>  <span class="lnr lnr-arrow-right"></span>  <a href="course-cart.html"> Cart</a></p>
+                    </div>	
+                </div>
+            </div>
+        </section>
+        <!-- End banner Area -->	
+            
+        <!-- Start event-details Area -->
+        <section class="event-details-area section-gap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 event-details-left">
+                        <table class="table table-bordered">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Image</th>
+                                    <th scope="col">Name</th>
+                                    <th scope="col">Price</th>
+                                    <th scope="col">Action</th>
+                                </tr>
+                            </thead>
+                            <tbody id="cart-items">
+                                <tr>
+                                    <td>
+                                        <img src="img/course 1.jpg" alt="Product 1" style="width: 50px; height: 50px;">
+                                    </td>
+                                    <td>Web Development Bootcamp React</td>
+                                    <td class="item-price">$10.00</td>
+                                    <td><button class="btn btn-danger btn-sm delete-btn">Delete</button></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <img src="img/course 2.jpg" alt="Product 2" style="width: 50px; height: 50px;">
+                                    </td>
+                                    <td>Data Science for Beginners</td>
+                                    <td class="item-price">$15.00</td>
+                                    <td><button class="btn btn-danger btn-sm delete-btn">Delete</button></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <img src="img/course 3.jpg" alt="Product 3" style="width: 50px; height: 50px;">
+                                    </td>
+                                    <td>Data Science Python</td>
+                                    <td class="item-price">$20.00</td>
+                                    <td><button class="btn btn-danger btn-sm delete-btn">Delete</button></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div class="card mt-4">
+                            <div class="card-body">
+                                <h5 class="card-title">Cart Summary</h5>
+                    
+                                <!-- Discount Section -->
+                                <div class="mb-3">
+                                    <label for="discount" class="form-label">Discount %</label>
+                                    <input type="text" class="form-control" id="discount" placeholder="Enter discount percentage">
+                                </div>
+                    
+                                <!-- Total Fee Section -->
+                                <div class="mb-3">
+                                    <h6>Total Fee</h6>
+                                    <p class="h4" id="total-fee">$0.00</p> <!-- Dynamically updated total fee -->
+                                </div>
+                    
+                                <!-- Promo Code Section -->
+                                <div class="mb-3">
+                                    <label for="promoCode" class="form-label">Promo Code</label>
+                                    <input type="text" class="form-control" id="promoCode" placeholder="Enter promo code">
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">Payment Method</label>
+                                    <div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="promoCode" id="promoCode1" value="bkash">
+                                            <label class="form-check-label" for="bkash">
+                                                Bkash
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="promoCode" id="promoCode2" value="rocket">
+                                            <label class="form-check-label" for="rocket">
+                                               Rocket
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="promoCode" id="promoCode3" value="nagad">
+                                            <label class="form-check-label" for="nagad">
+                                                Nagad
+                                            </label>
+                                        </div>
+                                        <!-- Add more radio buttons as needed -->
+                                    </div>
+                                </div>
+                                
+                    
+                                <!-- Checkout Button -->
+                                <button class="btn btn-primary">Checkout</button>
+                            </div>
+                        </div>
+                        
+                        <div class="text-right mt-1">
+                            <button class="btn btn-primary">Proceed</button>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="col-lg-6 event-details-right">
+
+                        <div id="accordion">
+                            <div class="card">
+                              <div class="card-header" id="headingOne">
+                                <h5 class="mb-0">
+                                  <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    <h4>Course Completion Percentage:</h4>
+                                  </button>
+                                </h5>
+                              </div>
+                          
+                                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                                    <div class="card-body">
+                                <!-- Course Name and Progress Bar -->
+                                <div class="mt-4">
+                                    <p>Web Development Bootcamp React</p>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">75%</div>
+                                    </div>
+                                </div>
+                                <div class="mt-4">
+                                    <p>Data Science for Beginners</p>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 55%;" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">75%</div>
+                                    </div>
+                                </div>
+                                <div class="mt-4">
+                                    <p>Data Science Python</p>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+                                    </div>
+                                </div>
+                                <ul class="mt-10">
+                                    <li class="justify-content-between d-flex">
+                                        <span></span>
+                                        <span><a href="coursecomplitationlist.html">see more</a></span>
+                                    </li>														
+                                </ul>
+                                
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                              <div class="card-header" id="headingTwo">
+                                <h5 class="mb-0">
+                                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    <h4>My learning</h4>
+                                  </button>
+                                </h5>
+                              </div>
+                              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                                <div class="card-body">
+                                    <ul class="mt-10">
+                                        <li class="justify-content-between d-flex">
+                                            <span>Web Development Bootcamp React</span>
+                                        </li>
+                                        <li class="justify-content-between d-flex">
+                                            <span>Data Science Python</span>
+                                        </li>
+                                        <li class="justify-content-between d-flex">
+                                            <span>C++ for beginners</span>
+                                        </li>	
+                                        <li class="justify-content-between d-flex">
+                                            <span>Python for beginners</span>
+                                        </li>													
+                                    </ul>
+                                    <ul class="mt-10">
+                                        <li class="justify-content-between d-flex">
+                                            <span></span>
+                                            <span><a href="#">see more</a></span>
+                                        </li>														
+                                    </ul>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingThree">
+                                  <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                      <h4>Wish List</h4>
+                                    </button>
+                                  </h5>
+                                </div>
+                                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                                  <div class="card-body">
+                                    <ul class="mt-10">
+                                        <li class="justify-content-between d-flex">
+                                            <span>Web Development Bootcamp React</span>
+                                        </li>
+                                        <li class="justify-content-between d-flex">
+                                            <span>Data Science Python</span>
+                                        </li>
+                                        <li class="justify-content-between d-flex">
+                                            <span>C++ for beginners</span>
+                                        </li>	
+                                        <li class="justify-content-between d-flex">
+                                            <span>Python for beginners</span>
+                                        </li>													
+                                    </ul>
+                                      <ul class="mt-10">
+                                        <li class="justify-content-between d-flex">
+                                            <span></span>
+                                            <span><a href="course-wish-list.html">see more</a></span>
+                                        </li>														
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="card">
+                                <div class="card-header" id="headingFour">
+                                  <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                      <h4>Profile</h4>
+                                    </button>
+                                  </h5>
+                                </div>
+                                <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                                  <div class="card-body">
+                                    <ul class="mt-10">
+                                        <li class="justify-content-between d-flex">
+                                            <span>Name</span>
+                                            <span>John Doe</span>
+                                        </li>
+                                        <hr>
+                                        <li class="justify-content-between d-flex">
+                                            <span>Email</span>
+                                            <span>john.doe@example.com</span>
+                                        </li>
+                                        <hr>
+                                        <li class="justify-content-between d-flex">
+                                            <span>Phone</span>	
+                                            <span>+1234567890</span>
+                                        </li>
+                                        <hr>												
+                                    </ul>
+                                      <ul class="mt-10">
+                                        <li class="justify-content-between d-flex">
+                                            <span></span>
+                                            <span><a href="Profile.html">see more</a></span>
+                                        </li>														
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="card">
+                                <div class="card-header" id="headingFive">
+                                  <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                      <h4>Subscription</h4>
+                                    </button>
+                                  </h5>
+                                </div>
+                                <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+                                  <div class="card-body">
+                                      <ul class="mt-10">
+                                          <li class="justify-content-between d-flex">
+                                              <span>Basic</span>
+                                              <span>$9.99</span>
+                                          </li>
+                                          <li class="justify-content-between d-flex">
+                                              <span>Pro</span>
+                                              <span>$19.99</span>
+                                          </li>
+                                          <li class="justify-content-between d-flex">
+                                              <span>Premium</span>
+                                              <span>$29.99</span>
+                                          </li>														
+                                      </ul>
+                                      <ul class="mt-10">
+                                        <li class="justify-content-between d-flex">
+                                            <span></span>
+                                            <span><a href="#">see more</a></span>
+                                        </li>														
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="card">
+                                <div class="card-header" id="headingSix">
+                                  <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                      <h4>Purchase History</h4>
+                                    </button>
+                                  </h5>
+                                </div>
+                                <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
+                                  <div class="card-body">
+                                      <ul class="mt-10">
+                                          <li class="justify-content-between d-flex">
+                                              <span>Web Development Bootcamp React</span>
+                                              <span>2024-09-15</span>
+                                          </li>
+                                          <li class="justify-content-between d-flex">
+                                              <span>Data Science for Beginners</span>
+                                              <span>2024-07-01</span>
+                                          </li>
+                                          <li class="justify-content-between d-flex">
+                                              <span>Advanced Python Programming</span>
+                                              <span>2024-11-20</span>
+                                          </li>	
+                                          <li class="justify-content-between d-flex">
+                                            <span>Introduction to Artificial Intelligence</span>
+                                            <span>2024-12-10</span>
+                                        </li>														
+                                      </ul>
+                                      <ul class="mt-10">
+                                        <li class="justify-content-between d-flex">
+                                            <span></span>
+                                            <span><a href="course-purchase-history.html">see more</a></span>
+                                        </li>														
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                                                            <div class="card">
+                                <div class="card-header" id="headingSeven">
+                                  <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                      <h4>Others</h4>
+                                    </button>
+                                  </h5>
+                                </div>
+                                <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion">
+                                  <div class="card-body">
+                                    <ul class="mt-10">
+                                        <li class="justify-content-between d-flex">
+                                            <span>Options</span>
+                                        </li>												
+                                    </ul>
+
+                                  </div>
+                                </div>
+                              </div>
+                          </div>
+                        													
+                    </div>
+                </div>
+            </div>	
+        </section>
+        <!-- End event-details Area -->
+                
+            
+        <!-- Start cta-two Area -->
+        <section class="cta-two-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 cta-left">
+                        <h1>Not Yet Satisfied with our Trend?</h1>
+                    </div>
+                    <div class="col-lg-4 cta-right">
+                        <a class="primary-btn wh" href="#">view our blog</a>
+                    </div>
+                </div>
+            </div>	
+        </section>
+        <!-- End cta-two Area -->						    			
+
+        <!-- start footer Area -->		
+        <footer class="footer-area section-gap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <div class="single-footer-widget">
+                            <h4>Top Products</h4>
+                            <ul>
+                                <li><a href="#">Managed Website</a></li>
+                                <li><a href="#">Manage Reputation</a></li>
+                                <li><a href="#">Power Tools</a></li>
+                                <li><a href="#">Marketing Service</a></li>
+                            </ul>								
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <div class="single-footer-widget">
+                            <h4>Quick links</h4>
+                            <ul>
+                                <li><a href="#">Jobs</a></li>
+                                <li><a href="#">Brand Assets</a></li>
+                                <li><a href="#">Investor Relations</a></li>
+                                <li><a href="#">Terms of Service</a></li>
+                            </ul>								
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <div class="single-footer-widget">
+                            <h4>Features</h4>
+                            <ul>
+                                <li><a href="#">Jobs</a></li>
+                                <li><a href="#">Brand Assets</a></li>
+                                <li><a href="#">Investor Relations</a></li>
+                                <li><a href="#">Terms of Service</a></li>
+                            </ul>								
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <div class="single-footer-widget">
+                            <h4>Resources</h4>
+                            <ul>
+                                <li><a href="#">Guides</a></li>
+                                <li><a href="#">Research</a></li>
+                                <li><a href="#">Experts</a></li>
+                                <li><a href="#">Agencies</a></li>
+                            </ul>								
+                        </div>
+                    </div>																		
+                    <div class="col-lg-4  col-md-6 col-sm-6">
+                        <div class="single-footer-widget">
+                            <h4>Newsletter</h4>
+                            <p>Stay update with our latest</p>
+                            <div class="" id="mc_embed_signup">
+                                 <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get">
+                                  <div class="input-group">
+                                    <input type="text" class="form-control" name="EMAIL" placeholder="Enter Email Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Email Address '" required="" type="email">
+                                    <div class="input-group-btn">
+                                      <button class="btn btn-default" type="submit">
+                                        <span class="lnr lnr-arrow-right"></span>
+                                      </button>    
+                                    </div>
+                                        <div class="info"></div>  
+                                  </div>
+                                </form> 
+                            </div>
+                        </div>
+                    </div>											
+                </div>
+                <div class="footer-bottom row align-items-center justify-content-between">
+    <p class="footer-text m-0 col-lg-6 col-md-12">
+    Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://ESSENTIAL - INFOTECH.com" target="_blank">ESSENTIAL - INFOTECH</a>
+    </p>
+                    <div class="col-lg-6 col-sm-12 footer-social">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-dribbble"></i></a>
+                        <a href="#"><i class="fa fa-behance"></i></a>
+                    </div>
+                </div>						
+            </div>
+        </footer>	
+        <!-- End footer Area -->	
+
+
+        <script src="js/vendor/jquery-2.2.4.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="js/vendor/bootstrap.min.js"></script>			
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
+          <script src="js/easing.min.js"></script>			
+        <script src="js/hoverIntent.js"></script>
+        <script src="js/superfish.min.js"></script>	
+        <script src="js/jquery.ajaxchimp.min.js"></script>
+        <script src="js/jquery.magnific-popup.min.js"></script>	
+        <script src="js/jquery.tabs.min.js"></script>						
+        <script src="js/jquery.nice-select.min.js"></script>	
+        <script src="js/owl.carousel.min.js"></script>									
+        <script src="js/mail-script.js"></script>	
+        <script src="js/main.js"></script>	
+        <script>
+            // Select all delete buttons
+            const deleteButtons = document.querySelectorAll('.delete-btn');
+        
+            // Add a click event listener to each delete button
+            deleteButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    // Find the row (tr) that the button belongs to and remove it
+                    this.closest('tr').remove();
+                });
+            });
+        </script>
+        <!-- JavaScript to Calculate Total Fee -->
+        <script>
+            function updateTotalFee() {
+                const itemPrices = document.querySelectorAll('.item-price');
+                let total = 0;
+
+                itemPrices.forEach(priceElement => {
+                    // Remove the dollar sign and parse the number
+                    const price = parseFloat(priceElement.textContent.replace('$', ''));
+                    if (!isNaN(price)) {
+                        total += price;
+                    }
+                });
+
+                // Update the total fee element
+                document.getElementById('total-fee').textContent = `$${total.toFixed(2)}`;
+            }
+
+            // Initial call to update total fee
+            updateTotalFee();
+
+            // Example: Update total fee when an item is deleted
+            document.querySelectorAll('.delete-btn').forEach(button => {
+                button.addEventListener('click', () => {
+                    button.closest('tr').remove();
+                    updateTotalFee();
+                });
+            });
+        </script>
+    </body>
+</html>
